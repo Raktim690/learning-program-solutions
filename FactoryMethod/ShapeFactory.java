@@ -1,6 +1,5 @@
 public class ShapeFactory {
 
-    // Factory Method
     public Shape getShape(String shapeType) {
         if (shapeType == null)
             return null;
