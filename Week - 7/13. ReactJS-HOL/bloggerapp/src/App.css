@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header-custom {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.detail-panel {
+  flex: 1;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.detail-panel h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.detail-panel h3 {
+  margin: 10px 0 5px 0;
+  color: #555;
+}
+
+.detail-panel h4 {
+  margin: 5px 0;
+  color: #777;
+}
+
+.detail-panel p {
+  color: #666;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: green;
+  min-height: 300px;
+  align-self: stretch;
+}
